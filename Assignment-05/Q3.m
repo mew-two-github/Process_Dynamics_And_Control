@@ -20,7 +20,7 @@ hold off;
 legend('Nyquist','Unit Circle');
 w = 0.78; % From nyquist plot
 GM = -0.767; % From Nyquist Plot
-Kc = 10^(-10.5/20)/4*3; % Derived by hand
-figure;nyquist(Kc*Gp)
-% Kc = 10^((+0.767-10.5)/20);
-% nyquist(Kc*Gp);
+Kc1 = 10^(-10.5/20)/4*3; % Derived by hand
+figure;nyquist(Kc1*Gp)
+Kc2 = 10^((-0.767-10.5)/20);
+figure;nyquist(Kc2*Gp);

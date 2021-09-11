@@ -1,5 +1,6 @@
 # Process Dynamics And Control
 The repository comprises of assignments done in CH3050 (Process Dynamics and Control) course, Spring 2021. Contents:
+
 0. Math review
 1. Process modelling, intuitions of feedback, feedforward and PI control, "Eigen values of the system", Laplace transform
 2. CSTR SIMULINK implementation(2input, one output) + linearisation + step response, transfer function to state space, response and analysis of two tank system, signal flow graph
